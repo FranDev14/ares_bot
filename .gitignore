@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# IDE
+.vscode/*
+.idea/*
+
 # C extensions
 *.so
 
@@ -127,3 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Files to ignore
+app/configs/bot_setup.json
