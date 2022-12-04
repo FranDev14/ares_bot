@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ares bot"
+version = "0.0.1"
+description = "A discord bot that saves time"
+authors = ["FranDev"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+py-cord = {extras = ["speed", "voice"], version = "^2.3.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
