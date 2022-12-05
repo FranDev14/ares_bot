@@ -1,19 +1,17 @@
 [tool.poetry]
-name = "ares bot"
-version = "0.0.1"
-description = "A discord bot that saves time"
-authors = ["FranDev"]
-license = "GNU"
-readme = "README.md"
+name = "XaBot"
+version = "0.1"
+description = "A discord bot multipurpose"
+authors = ["FranDev <olmelofran@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-py-cord = {extras = ["speed", "voice"], version = "^2.3.2"}
+python = "^3.10"
+"discord.py" = "^1.7.3"
+requests = "^2.27.1"
+rcon = "^2.2.0"
 
-
-[tool.poetry.group.dev.dependencies]
-ipykernel = "^6.17.1"
+[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"

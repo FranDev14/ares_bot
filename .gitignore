@@ -3,12 +3,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# IDE
-.vscode/*
-.idea/*
-
 # C extensions
 *.so
+
+# Folders IDE
+.idea/*
+.venv/*
+
+# Files
+test.py
+app/configs/streamers.json
+app/configs/whitelisted.json
+app/configs/config.json
 
 # Distribution / packaging
 .Python
@@ -131,6 +137,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Files to ignore
-app/configs/bot_setup.json
